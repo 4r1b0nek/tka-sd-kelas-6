@@ -1,0 +1,51 @@
+{
+  "name": "TKA SD Kelas 6 — Latihan Online",
+  "short_name": "TKA SD",
+  "description": "Latihan TKA SD Kelas 6: Matematika, Bahasa Indonesia, IPA, dan Bahasa Inggris. 400 soal, 20 soal acak per sesi, pembahasan lengkap.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f5f7fb",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "kids"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Matematika",
+      "short_name": "Matematika",
+      "description": "Mulai sesi Matematika",
+      "url": "./index.html?mapel=matematika",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Bahasa Indonesia",
+      "short_name": "B. Indonesia",
+      "description": "Mulai sesi Bahasa Indonesia",
+      "url": "./index.html?mapel=bahasa",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "IPA",
+      "short_name": "IPA",
+      "description": "Mulai sesi IPA",
+      "url": "./index.html?mapel=ipa",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Bahasa Inggris",
+      "short_name": "B. Inggris",
+      "description": "Mulai sesi Bahasa Inggris",
+      "url": "./index.html?mapel=inggris",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
